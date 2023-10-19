@@ -1,0 +1,317 @@
+body {
+    min-width: 100vh;
+}
+/* header */
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+li {
+    display:inline-block;
+    margin-left: 0;
+    margin-right: 0;
+}
+img {
+    display: block;
+}
+.container {
+    max-width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.logo-link {
+    display: block;
+    margin-top: 25.5px;
+    margin-right: 0;
+    margin-bottom: 25.5px;
+    margin-left: 156px;
+}
+.logo-studio-page {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 25.5px 76px 25.5px 0;
+}
+.header-page {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--WHITE, #FFF);
+}
+.header-page .container {
+    display: flex;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-right: 332px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: #404bbf;
+}
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 24px 0 24px;
+}
+.body-page{
+    color: #434455;
+background: var(--WHITE, #FFF);
+font-family: "Roboto", sans-serif;
+}
+/* main page */
+
+.main-section {
+    background: var(--NAVY-BLUE, #2E2F42);
+    height: 600px;
+}
+.section-page:hover,
+.section-page:focus{
+ color:  #404bbf;
+}
+.adress-contacts {
+    font-style: normal;
+
+}
+.contacts-list .link {
+    letter-spacing: 0.02em; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+  color: #404bbf;
+}
+
+.section-page-item {
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 1.12px;
+display: flex;
+align-items: center;
+width: 496px;
+max-width: 496px;
+margin: 0 472px 48px 472px;
+padding-top: 188px;
+}
+.button-item {
+background: var(--IRIS, #4D5AE5);
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+font-size: 16px;
+min-width: 169px;
+height: 56px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;
+}
+.buttom-item:hover,
+.buttom-item:focus {
+    background-color: #404BBF;
+}
+
+/* Our Benefits */
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+.benefits-list {
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+    padding-right: 156px;
+    padding-bottom: 120px;
+    padding-right: 156px;
+    width: calc((100%-72px) / 4) ;
+}
+.benefits-page {
+    background: #FFF; 
+}
+.benefits-list-item {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.4px;
+display: flex;
+flex-direction: row;
+}
+.benefits-list-p {
+    color: var(--SLATE, #434455);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+}
+
+/* Our team */
+.section-team {
+    background: var(--CLOUD, #F4F4FD);
+    padding-bottom: 120px;
+}
+
+.our-team {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+line-height: 1.11;
+margin-bottom: 72px;
+}
+.our-team-list {
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+justify-content: center;
+flex-direction: row;
+margin-bottom: 32px;
+
+}
+.our-team-list-item {
+    background-color: #FFFFFF;
+}
+.staff-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.portfolio {
+    padding-bottom: 120px;
+}
+.staff-profesion {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+    border-bottom: 120px;
+}
+.portfolio-page {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+font-family: "Roboto" sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+padding-top: 120px;
+margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+.portfolio-title-list {
+    background-color: #ffffff;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.portfolio-title-item {
+    line-height: 1.5;
+}
+.portfolio-list-item {
+    width: calc((100%-(2*(3*24px))) / 6);
+}
+
+/* Footer */
+.footer-page {
+    background: var(--NAVY-BLUE, #2E2F42);
+    height: 312px;
+    flex-shrink: 0;
+}
+.footer-page-item {
+    color: var(--CLOUD, #F4F4FD);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.32px;
+
+}
+.logo {
+    color: var(--IRIS, #4D5AE5);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+display: block;
+margin-top: 101px;
+margin-bottom: 16px;
+
+
+}
+.logo-studio {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+line-height: 1.17;
+}
+
