@@ -179,7 +179,7 @@ border-radius: 4px;
     padding: 120px 0;
 }
 .benefits-page-list {
-    width: calc((100% - 3 * 24px) / 4)
+    width: calc((100% - 3*24px)/4)
 }
 .benefits-list {
     display: flex;
@@ -229,7 +229,6 @@ font-weight: 700;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 line-height: 1.11;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 .our-team-list {
