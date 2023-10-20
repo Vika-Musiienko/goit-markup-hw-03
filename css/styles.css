@@ -81,6 +81,10 @@ background: var(--WHITE, #FFF);
     padding: 24px 0;
     display: block;
 }
+.nav-list-link {
+    display: flex;
+    padding: 24px 0;
+}
 .contacts-list {
     display: flex;
     align-items: center;
@@ -112,6 +116,7 @@ font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 24px 0;
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
@@ -174,8 +179,7 @@ border-radius: 4px;
     padding: 120px 0;
 }
 .benefits-page-list {
-    flex-basis: calc((100% - 3 * 24px) / 4);
-  
+    width: calc((100%-(3*24px)) / 4);
 }
 .benefits-list {
     display: flex;
