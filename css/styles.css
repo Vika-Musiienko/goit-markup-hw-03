@@ -247,7 +247,8 @@ margin-bottom: 32px;
 }
 
 .portfolio {
-    padding-top: 120px 0 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .staff-profesion {
     line-height: 1.5;
