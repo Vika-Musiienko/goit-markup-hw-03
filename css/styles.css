@@ -24,22 +24,28 @@ img {
 padding: 0 15px;
 margin: 0 auto;
 }
-.logo-link {
-    display: block;
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
     margin-top: 25px;
     margin-right: 76px;
     margin-bottom: 25px;
-    margin-left: 156px;
-    width: 44px;
-
 }
 .logo-studio-page {
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.54px;
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     text-transform: uppercase;
-    margin-right: 76px;
+    margin: 0 auto;
     width: 71px;
 }
 .header-page {
@@ -123,8 +129,8 @@ line-height: 1.07;
 letter-spacing: 1.12px;
 display: block;
 align-items: center;
-width: 496px;
-margin-bottom: 48px;
+max-width: 496px;
+margin: 0 auto;
 }
 .button-item {
 background: var(--IRIS, #4D5AE5);
@@ -137,8 +143,8 @@ font-size: 16px;
 min-width: 169px;
 height: 56px;
 display: block;
-margin-left: auto;
-margin-right: auto;
+padding: 16px 32px;
+margin: 0 auto;
 margin-bottom: 48px;
 border: none;
 border-radius: 4px;
