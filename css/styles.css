@@ -179,6 +179,7 @@ border-radius: 4px;
     padding: 120px 0;
 }
 .benefits-page-list {
+    width: calc((100px -72px) / 4);
 }
 .benefits-list {
     display: flex;
@@ -188,7 +189,6 @@ border-radius: 4px;
     padding-bottom: 120px;
     padding-right: 156px;
     flex-wrap: nowrap;
-    width: calc((100px -72px) / 4);
 }
 
 .benefits-list-item {
