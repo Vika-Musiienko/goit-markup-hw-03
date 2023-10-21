@@ -179,7 +179,7 @@ border-radius: 4px;
     padding: 120px 0;
 }
 .benefits-page-list {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4px);
 }
 .benefits-list {
     display: flex;
